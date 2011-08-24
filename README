@@ -1,0 +1,58 @@
+MutaSketch
+
+Origins:
+This is a digital version of a simple pen-and-paper game. Known amongst friends as "Telephone Pictionary" (or vice versa), the game combines qualities of both the whisper-passing game Telephone and the picture-guessing game Pictionary. As the latter is likely trademarked, it is hereby known as MutaSketch ( a mashup of "sketch" and "mutation," given the game's focus on drastically altering what goes through it via quick drawings.) As this will likely not exist in a playable form for quite some time, this document will currently focus mainly of the pen-and-paper version. Go ahead, play a round with friends.
+
+Rules of the Pen-and-Paper Version:
+	Setup:
+		Assemble a group of about 6 to 12 players. Lower numbers get progressively worse to play; there is insufficient time for mutations to accumulate. Larger groups work fine; it just requires players sufficiently interested to stay in for the longer time span required.
+		
+		Players sit in a circle and every player is supplied with a piece of paper (a standard sheet cut in half lengthwise works well), a writing utensil, and surface to write upon.
+		
+		The group must decide on a direction of travel, be it clockwise or counter-clockwise.
+		
+		Every player now writes a sentence at the top of the paper, and passes it to the next player, as determined by the decided upon direction of travel.
+		
+		And so it begins.
+		
+	A Standard Turn:
+		Upon receiving a paper in play, a player should either draw a picture based on the written sentence, or write a sentence based on the supplied picture. After this is completed, the paper is folded that only the current player's contribution is visible on top (folding all previous entries backward is the most practical method). Now the paper is passed to the next player. If the next player is not ready, the papers can be safely queued next to them. Any players left paperless as a result of this temporary back-up in the flow can simply relax for a bit. As long as everyone is having fun, a small delay waiting for a person is fine.
+		
+		The important concept here is that whenever a paper is passed, exactly one thing should be visible: either the most recent sentence or the most recent picture. Peeking at previous entries would give a player ideas on how to interpet the most recent entry. This defeats the purpose of the game; confusion and misinterpretations is the primary feature.
+		
+	Ending:
+		A paper is considered complete when it returns to its original author. Equivalently, when it has completed a full circuit around the circle of players. For logistical reasons, running out of paper to draw upon is also a valid ending. 
+		
+		Once a paper is completed, it is ready to be unfolded and hilarity can ensue as the series of sentences and pictures upon it are inspected. Sometimes a concept can be incredibly durable across various images, and sometimes a simple miscommunication can drastically alter an entire message. 
+		
+		The completed papers should obviously be passed around so the whole group can enjoy them.
+		
+	Miscellaneous notes:
+		The rules are of course very flexible. This is a friendly game, and it is up to the players to decide how they wish to play it.
+		
+		One notable soft rule would be including text in the drawings. Often better results are achieved if text is avoided entirely, but a small word or onomatopoeia can go a long way. Labelling things directly is generally frowned upon.
+		
+		The starting sentence provides a wide range of choices. Choosing classic phrases (such as "She sells sea shells by the sea shore") are generally easy enough to convey/recognize that it can pass through many players without much of interest happening to it. In general, sentences that give the second player control over what to draw produce better results.
+		
+		Good start: "The potato had no friends."
+		Bad start:  "A sad potato stood alone."
+		
+		The first can be drawn in many ways, the latter has essentially just one.
+		
+		This can be taken too far, as it can place a heavy burden on the second player. Consider "Takes one to know one." A common phrase, but how could one draw something so abstract? As long as the second player is up to the task, this can lead to wonderful results as players struggle to make sense of the produced imagery.
+		
+		Obviously not every player must be an artist. Stick figures can go a long way. Having a players who cover a wide range of artistic skill levels and styles will work well, regardless of if the outliers are horrible or fantastic at drawing. Similarly, differen writing styles can manifest themselves in this game. 
+		
+		On that note, respect the limitations of drawing. Don't try to get someone to draw an impossibly detailed scene in the short time span of the game.
+		
+Changes in the Digital Version:
+	-Text will be typed, eliminating (perhaps unfortunately) errorsdue to poor handwriting.
+	-Pictures will be sketched on screen, leading to the usual difficulty in drawing as most will not have a graphics tablet for input.
+	-The digital sketching could introduce various colors and brush thicknesses, which would be impractical in the pen-and-paper version.
+	-Will need to deal with players dropping in and out mid-round due to network issues.
+	
+	In an ideal world, a server/lobby set-up would exist, with players creating public or private rooms. The results of a round could be saved or uploaded for sharing, perhaps even voted upon at some site collecting them. But for now, basic networking with one player acting as a server is the intended infrastructure.
+	
+	
+Conclusion from Joseph Geumlek:
+	As of now, this is just a Summer project done for fun. I'm not promising a polished product (or even a functional one), nor will I pretend to have the best coding styles. It is what it is.
