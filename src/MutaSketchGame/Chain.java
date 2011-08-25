@@ -1,10 +1,12 @@
 package MutaSketchGame;
 
+import java.io.Serializable;
+import java.util.Iterator;
 import java.util.LinkedList;
 
 //Represents a set of sentences and pictures. 
 //In terms of the physical game, this is a single sheet of paper passed around.
-public class Chain {
+public class Chain implements Serializable {
 	
 	
 	//Not sure if needed, but will keep track of whether
@@ -14,6 +16,8 @@ public class Chain {
 	private LinkedList<Entry> entries;
 	//Keeps track of the last entry type
 	private EntryType lastType;
+	//Handy to keep track of the last entry
+	private Entry lastEntry;
 
 	//Every chain starts with a sentence. (Is this a dumb restriction?)
 	public Chain(TextEntry firstSentence) {
@@ -23,6 +27,7 @@ public class Chain {
 		entries = new LinkedList<Entry>();
 		entries.add(firstSentence);
 		lastType = EntryType.TEXT;
+		lastEntry = firstSentence;
 	}
 	//Attempts to add another entry to the chain
 	void addEntry(Entry entry) {
@@ -31,5 +36,14 @@ public class Chain {
 			throw new IllegalArgumentException("An entry of the wrong type was supplied to this chain.");
 		entries.add(entry);
 		lastType = entry.type();
+		lastEntry = entry;
+	}
+	//Returns the latest entry, which is frequently of interest.
+	Entry getLatestEntry() {
+		return lastEntry;
+	}
+	//Used to output all the entries, such as when the entire chain is inspected.
+	Iterator<Entry> getEntryIterator() {
+		return entries.iterator();
 	}
 }

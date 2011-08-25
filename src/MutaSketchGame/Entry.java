@@ -1,6 +1,9 @@
 package MutaSketchGame;
+
+import java.io.Serializable;
+
 //Entries in the chain, must have either a sentence or a sketch.
-public interface Entry {
+public interface Entry extends Serializable {
 	//Must identify itself as a sentence or a sketch.
 	EntryType type();
 	//Must provide access to its sentence or sketch.
